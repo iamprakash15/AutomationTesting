@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class AtmMschine {
+
+	
+	private double totalBal = 100;
+	Scanner input = new Scanner(System.in);
+	
+	public int userAccount() {
+		
+		System.out.println("Please Enter your account number: ");
+		int account = input.nextInt();
+		return account;
+	}
+	
+	public int userPin() {
+		
+		System.out.println("Please Enter your pin number: ");
+		int pin = input.nextInt();
+		return pin;
+	}
+	
+	public void startAtm() {
+		userAccount();
+		userPin();
+		drawMainMenu();
+	}
+	
+	
+	
+	public  void drawMainMenu() {
+		int selection;
+		System.out.println("ATM main menu.Please select your option to process further");
+		System.out.println("ATM main menu.Please select your option to process further");
+		System.out.println("ATM main menu.Please select your option to process further");
+		System.out.println("ATM main menu.Please select your option to process further");
+		System.out.println("ATM main menu.Please select your option to process further");
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

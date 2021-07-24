@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class AtmMschine {
+
+	
+	private double totalBal = 100;
+	Scanner input = new Scanner(System.in);
+	
+	public int userAccount() {
+		
+		System.out.println("Please Enter your account: ");
+		int account = input.nextInt();
+		return account;
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

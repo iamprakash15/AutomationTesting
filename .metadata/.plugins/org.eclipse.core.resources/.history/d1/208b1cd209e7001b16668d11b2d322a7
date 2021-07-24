@@ -1,0 +1,19 @@
+import java.util.HashMap;
+
+public class CollectionLearning {
+
+	public static void main(String[] args) {
+
+		HashMap<Object, Object> map = new HashMap<>();
+		
+		for (int i = 0; i < 20; i++) {
+			map.put("NAME["+i+"]", "Prako["+i+"]");
+		}
+		System.out.println(map.get());
+		
+		
+		
+
+	}
+
+}
