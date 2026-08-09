@@ -1,0 +1,28 @@
+# Java and Maven build output
+**/target/
+*.class
+*.jar
+
+# IDE and editor state
+.metadata/
+**/.classpath
+**/.project
+**/.settings/
+.idea/
+*.iml
+.vscode/
+
+# Local browser binaries and test artifacts
+**/driver/
+chromedriver*
+geckodriver*
+*.log
+screenshots/
+reports/
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
