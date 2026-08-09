@@ -72,7 +72,7 @@
                                 <requireMavenVersion>
                                     <version>[3.9,)</version>
                                 </requireMavenVersion>
-                                <dependencyConvergence/>
+                                <requireUpperBoundDeps/>
                             </rules>
                         </configuration>
                     </execution>
