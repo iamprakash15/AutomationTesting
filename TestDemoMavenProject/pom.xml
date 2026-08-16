@@ -14,7 +14,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
-        <selenium.version>4.46.0</selenium.version>
+        <selenium.version>4.47.0</selenium.version>
         <poi.version>5.5.1</poi.version>
         <junit.version>6.1.3</junit.version>
     </properties>
